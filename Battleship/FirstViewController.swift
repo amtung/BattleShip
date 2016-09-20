@@ -16,13 +16,13 @@ class FirstViewController: UIViewController {
     let numOfShips: Int
     
     let resetTitle = "Reset"
-    let engine: battleShipEngine
+    let engine: BattleShipEngine
     var loaded = false
     
     required init?(coder aDecoder: NSCoder) {    //override the initializer
         self.numOfShips = 100
         self.loaded = false
-        self.engine = battleShipEngine(numOfShips: self.numOfShips)
+        self.engine = BattleShipEngine(numOfShips: self.numOfShips)
         super.init(coder: aDecoder)
     }
         override func viewDidLoad() {

@@ -13,7 +13,7 @@
 		9CA536D31D90FD390037790B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA536D21D90FD390037790B /* FirstViewController.swift */; };
 		9CA536D51D90FD4B0037790B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA536D41D90FD4B0037790B /* SecondViewController.swift */; };
 		9CA536D71D90FDEA0037790B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA536D61D90FDEA0037790B /* Main.storyboard */; };
-		9CA536D91D90FE0C0037790B /* battleShipEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA536D81D90FE0C0037790B /* battleShipEngine.swift */; };
+		9CA536D91D90FE0C0037790B /* BattleShipEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA536D81D90FE0C0037790B /* BattleShipEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		9CA536D21D90FD390037790B /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		9CA536D41D90FD4B0037790B /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9CA536D61D90FDEA0037790B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9CA536D81D90FE0C0037790B /* battleShipEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = battleShipEngine.swift; sourceTree = "<group>"; };
+		9CA536D81D90FE0C0037790B /* BattleShipEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleShipEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				1ED8D76B1D8CA082007FD4C7 /* AppDelegate.swift */,
 				9CA536D41D90FD4B0037790B /* SecondViewController.swift */,
-				9CA536D81D90FE0C0037790B /* battleShipEngine.swift */,
+				9CA536D81D90FE0C0037790B /* BattleShipEngine.swift */,
 				9CA536D21D90FD390037790B /* FirstViewController.swift */,
 				9CA536D61D90FDEA0037790B /* Main.storyboard */,
 				1ED8D7741D8CA082007FD4C7 /* Assets.xcassets */,
@@ -145,7 +145,7 @@
 				9CA536D51D90FD4B0037790B /* SecondViewController.swift in Sources */,
 				9CA536D31D90FD390037790B /* FirstViewController.swift in Sources */,
 				1ED8D76C1D8CA082007FD4C7 /* AppDelegate.swift in Sources */,
-				9CA536D91D90FE0C0037790B /* battleShipEngine.swift in Sources */,
+				9CA536D91D90FE0C0037790B /* BattleShipEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

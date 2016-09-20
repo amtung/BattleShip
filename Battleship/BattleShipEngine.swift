@@ -8,7 +8,7 @@
 
 import Foundation
 
-class battleShipEngine {
+class BattleShipEngine {
 
     let numOfShips: Int
     let typeOfShips = [2,3,3,4,5]
